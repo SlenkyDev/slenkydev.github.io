@@ -36,6 +36,38 @@
     color: white;
 }
 
+.project {
+    width: 100%;
+    display: inline-block;
+    margin: 2%;
+}
+
+.project a {
+    color: #fa7a3d;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 35px;
+    width: 100%;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1%;
+}
+
+.project ul {
+    font-family: 'Ubuntu Mono', monospace;
+    list-style-type: square;
+}
+
+.project-info {
+    text-align: left;
+    float: left;
+    width: 30%;
+}
+
+.project-description {
+    float: right;
+    width: 70%;
+}
+
 .footer {
     text-align: center;
     margin: 1%;
@@ -62,7 +94,7 @@ html, body {
     background-color: rgb(48, 48, 48);
 }
 
-.blocks .block {
+.block {
     width: 24%;
     align-content: center;
     text-align: center;

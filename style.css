@@ -1,36 +1,91 @@
-h1 {
+.heading {
+    margin-top: 1%;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading h1 {
+    font-family: 'Ubuntu Mono', monospace;
     font-size: 50px;
     line-height: 62px;
-    font-family: 'Ubuntu Mono', monospace;
     text-align: center;
     color: #fa7a3d;
 }
 
-.paragraph {
-    font-size: 20px;
-    line-height: 62px;
-    font-family: 'Ubuntu Mono', monospace;
+.heading p {
+    font-size: 22px;
+    line-height: 30px;
     text-align: center;
     color: white;
 }
 
-a {
-    font-size: 25px;
-    line-height: 62px;
+.heading img {
+    border-radius: 50%;
+    width: 25%;
+}
+
+.body {
+    width: 60%;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    margin: 1%;
+}
+
+.footer a {
     font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
     color: #fa7a3d;
     text-align: center;
 }
 
-h2 {
-    font-size: 32px;
-    line-height: 62px;
-    font-family: 'Ubuntu Mono', monospace;
-    text-align: justify;
-    color: #fa7a3d;
-}
-
-
 body {
     background-color: #282828;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+.blocks {
+    padding: 2%;
+    background-color: rgb(48, 48, 48);
+}
+
+.blocks .block {
+    width: 24%;
+    align-content: center;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+}
+
+.block img {
+    border-radius: 50%;
+    width: 22%;
+}
+
+p {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+::-moz-selection {
+    color: white;
+    background: #ffbe5c;
+}
+
+::selection {
+    color: white;
+    background: #ffbe5c;
 }

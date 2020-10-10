@@ -1,0 +1,36 @@
+h1 {
+    font-size: 50px;
+    line-height: 62px;
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+    color: #fa7a3d;
+}
+
+.paragraph {
+    font-size: 20px;
+    line-height: 62px;
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+    color: white;
+}
+
+a {
+    font-size: 25px;
+    line-height: 62px;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #fa7a3d;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 62px;
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: justify;
+    color: #fa7a3d;
+}
+
+
+body {
+    background-color: #282828;
+}

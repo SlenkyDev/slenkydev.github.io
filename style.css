@@ -91,6 +91,12 @@
     text-align: center;
 }
 
+.footer p {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 15px;
+    color: #fa7a3d;
+    text-align: right;
+}
 body {
     background-color: #282828;
 }

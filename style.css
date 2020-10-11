@@ -40,6 +40,8 @@
     width: 100%;
     display: inline-block;
     margin: 2%;
+    font-size: 20px;
+    line-height: 22px;
 }
 
 .project a {
@@ -58,8 +60,8 @@
 
 .project img {
     border-radius: 50%;
-    width: 10%;
-    margin-bottom: 1%;
+    width: 12%;
+    margin-bottom: 2%;
 }
 
 .project-info {
@@ -119,6 +121,12 @@ html, body {
 
 p {
     font-family: 'Ubuntu Mono', monospace;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: white;
 }
 
 ::-moz-selection {

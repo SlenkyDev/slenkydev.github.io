@@ -246,3 +246,8 @@ hr {
     color: white;
     background: #ffbe5c;
 }
+
+body {
+  overflow-y: hidden; 
+  overflow-x: hidden; 
+}

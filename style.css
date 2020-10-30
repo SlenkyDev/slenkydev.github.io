@@ -247,7 +247,8 @@ hr {
     background: #ffbe5c;
 }
 
-body {
-  overflow-y: hidden; 
-  overflow-x: hidden; 
+.nabor 
+{
+    color: #bd4651;
+    text-align: center;
 }
